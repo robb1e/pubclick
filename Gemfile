@@ -8,7 +8,6 @@ gem 'slim'
 gem 'simple_form'
 gem 'embedly'
 gem 'bourbon'
-gem 'pg'
 
 group :client_side do
   gem 'jquery-rails'
@@ -26,5 +25,10 @@ group :development, :test do
   gem 'sextant'
   gem 'rails_best_practices'
   gem 'whitespace'
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
 end
 
