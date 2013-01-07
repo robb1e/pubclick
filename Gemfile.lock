@@ -119,6 +119,7 @@ GEM
       thor (>= 0.14.6, < 2.0)
     raindrops (0.10.0)
     rake (10.0.3)
+    rdiscount (1.6.8)
     rdoc (3.12)
       json (~> 1.4)
     sass (3.2.4)
@@ -179,6 +180,7 @@ DEPENDENCIES
   pg
   rails (= 3.2.8)
   rails_best_practices
+  rdiscount
   sass-rails (~> 3.2.3)
   sextant
   simple_form

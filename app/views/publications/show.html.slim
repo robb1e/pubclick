@@ -1,0 +1,5 @@
+h1= @publication.name
+
+= render('contents/form', content: Content.new, publication: @publication)
+
+= render(partial: 'contents/show', collection: @publication.contents, as: :content)

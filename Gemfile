@@ -7,6 +7,7 @@ gem 'devise'
 gem 'slim'
 gem 'simple_form'
 gem 'embedly'
+gem 'rdiscount'
 gem 'bourbon'
 
 group :client_side do

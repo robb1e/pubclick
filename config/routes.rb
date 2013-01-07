@@ -1,6 +1,10 @@
 Pubclick::Application.routes.draw do
   devise_for :users
 
+  resources :publications, only: [:index, :new, :create, :show] do
+    resources :contents
+  end
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
